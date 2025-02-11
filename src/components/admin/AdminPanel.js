@@ -157,7 +157,7 @@ const AdminPanel = () => {
                         <h3>{product.name}</h3>
                         <p>{product.description}</p>
                         <p><strong>Categoría:</strong> {product.category}</p>
-                        <p><strong>Precio:</strong> ${product.price}</p>
+                        <p><strong>Precio:</strong> ${product.price} USD</p>
                         <p><strong>Stock:</strong> {product.stock}</p>
                         <button className="edit-btn" onClick={() => handleEdit(product)}>
                             Editar

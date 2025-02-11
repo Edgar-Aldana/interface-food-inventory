@@ -81,7 +81,7 @@ const Products = () => {
                   <div key={product.id} className="grid-item">
                     <h4>{product.name}</h4>
                     <p>{product.description}</p>
-                    <p><strong>Precio:</strong> ${product.price}</p>
+                    <p><strong>Precio:</strong> ${product.price} USD</p>
                     <button onClick={() => handleSelectProduct(product.id)}>
                       Agregar
                     </button>
